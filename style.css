@@ -22,6 +22,7 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 /* GRID GERAL */
@@ -94,13 +95,22 @@ img {
   background: #b07dfb;
 }
 
+/* CONTENT */
+
 .content {
   grid-area: content;
 }
 
+/* ANUNCIOS */
+
 .anuncios {
   grid-area: anuncios;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
 }
+
+/* FOOTER */
 
 .footer {
   grid-area: footer;
